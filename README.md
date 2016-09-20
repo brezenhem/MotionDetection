@@ -15,16 +15,18 @@ This library implements fast recognition algorithm, for detect state device in s
 Permissions
 -----------
 To use the library, add in your AndroidManifest.xml  the following permissions:
-
+```
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-
+```
 Installation
 ------------
 1. Copy library jar file  to your project libs folder.
 2. In Gradle add to dependencies library jar file:
+```
 dependencies {
     compile files('libs/motiondetection.jar')
     }
+```
 3. Library is ready for use!
 
 How to use
